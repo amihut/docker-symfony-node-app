@@ -38,7 +38,7 @@ services:
   # mysql
   mysql-service:
     image: mysql:8
-    container_name: mysql8-container
+    container_name: mysql-container
     ports:
       - "4306:3306"
     volumes:
